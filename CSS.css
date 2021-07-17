@@ -2,22 +2,26 @@
 	font-family: Georgia;
 	box-sizing: border-box ;
 }
+
 .test-link{
+	text-align: center;
+}
+.test-link a{
 	text-decoration: none;
 	color:black;
+	
 }
+
 .test-link :hover{
 	color: green;
 }
-.test-link :active{
-	color: red;
-}
-
 
 .gallery {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
+	
 	width:100%;
 }
 figure {
@@ -42,21 +46,23 @@ figcaption {
 	height:100%;
 	width:100%;	
 }
+
 .navbar{
-	position: fixed;
-    top: 0;
-    width:100%;
+	position: sticky;
+	top:0px;
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
 	background-color: black;
 	 color:white;
 }
+
 .brand{
 	
 	font-size: 30px;
 	margin:20px;
 }
+
 .nav-links ul{
 	margin:0;
 	padding: 0;
@@ -68,17 +74,16 @@ figcaption {
 }
 
 .nav-links li a{
-	text-decoration: none;
+	
 	color:white;
 	padding:35px;
 	display:block;
 	font-size: 20px;
 }
+
 .nav-links li a:hover{
 	background-color: grey;
 }
-
-
 
 .para{
 	font-size: 20px;
@@ -96,12 +101,11 @@ figcaption {
 	background-color: rgb(41, 39, 39);
 	padding-top: 0.2px;
 }
-.hero{
-	padding-top: 60px;
-}
+
+
 .hero img{
 	width:100%;
-	 height:650px; 
+	 height:750px; 
 }
 
 @media	(max-width:900px){
