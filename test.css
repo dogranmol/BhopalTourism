@@ -28,6 +28,10 @@ h2 {
 	color:white;
 	font-size: 120%;
 }
+.flex{
+	display:flex;
+	justify-content: space-around;
+}
 .box {
 	width: 31%;
 	height: 1200px;
@@ -109,5 +113,8 @@ h2 {
 		width:100%;
 
 
+	}
+	.flex{
+		flex-direction: column;
 	}
 }
