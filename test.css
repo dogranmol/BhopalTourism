@@ -29,23 +29,29 @@ h2 {
 	font-size: 120%;
 }
 .box {
-	width: 32%;
+	width: 31%;
 	height: 1200px;
 	margin: 0.5em;
 	background-color: rgba(255, 94, 0, 0.959);
 	float: left;
-	
-	
 }
 
-.cont2 {
-	width: 97%;
-	height: 49%;
-	margin: 0.5em;
+.cont1 {
+	width: 96%;
+	height: 47%;
+	position:relative;
 	background-color: rgb(0, 255, 255);
-	float: top;
-	box-sizing: border-box;
-	padding: 0.5em;
+	top:1.5em;
+	left:0.5em;
+}
+.cont2 {
+	width: 96%;
+	height: 47%;
+	position:relative;
+	background-color: rgb(0, 255, 255);
+	top:2.5em;
+	left:0.5em;
+	
 }
 
 .cont11 {
@@ -66,7 +72,7 @@ h2 {
 }
 
 .box3 {
-	width: 32%;
+	width: 31%;
 	height: 1200px;
 	margin: 0.5em;
 	background-color: rgba(255, 94, 0, 0.959);
@@ -75,15 +81,15 @@ h2 {
 	
 }
 .cont31 {
-	width: 100px;
+	width: 50px;
 	height:1200px;
 	background-color: rgb(0, 255, 255);
 	position: relative;
-	left:43%;
+	left:47%;
 }
 .cont32 {
 	width: 100%;
-	height: 100px;
+	height: 50px;
 	background-color: rgb(0, 255, 255);
 	position: relative;
 	bottom:50%;
@@ -95,8 +101,13 @@ h2 {
 	
 	.box{
 		width: 100%;
+		
+	
+
 	}
 	.box3{
 		width:100%;
+
+
 	}
 }
