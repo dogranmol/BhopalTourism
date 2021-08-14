@@ -128,11 +128,9 @@ h2 {
 	
 	.box{
 		width: 100%;
-
+		margin-top:2em;
 	}
-	.box3{
-		width:100%;
-	}
+	
 	.flex{
 		flex-direction: column;
 	}
