@@ -10,6 +10,8 @@ body{
 }
 h2 {
 	text-align: center;
+	font-size:30px;
+	font-weight: bold;
 }
 
 .goto{
@@ -34,74 +36,95 @@ h2 {
 }
 .box {
 	width: 31%;
-	height: 1200px;
+	height: 600px;
 	margin: 0.5em;
 	background-color: rgba(255, 94, 0, 0.959);
 	float: left;
 }
 
 .cont1 {
-	width: 96%;
-	height: 47%;
+	width: 38%;
+	height: 40%;
 	position:relative;
 	background-color: rgb(0, 255, 255);
-	top:1.5em;
-	left:0.5em;
+	left:7%;
+	top:7%;
 }
 .cont2 {
-	width: 96%;
-	height: 47%;
+	width: 38%;
+	height: 40%;
 	position:relative;
 	background-color: rgb(0, 255, 255);
-	top:2.5em;
-	left:0.5em;
-	
+	bottom:33%;
+	left:54%;
+
+}
+.cont3 {
+	width: 85%;
+	height: 40%;
+	position:relative;
+	background-color: rgb(0, 255, 255);
+	bottom:25%;
+	left:7%;
 }
 
 .cont11 {
-	width: 40%;
-	height: 97%;
+	width: 90%;
+	height: 46%;
 	position:relative;
 	background-color: rgb(0, 255, 255);
-	left:5%;
-	top:2%;
-}
-.cont12 {
-	width: 40%;
-	height: 97%;
-	position:relative;
-	background-color: rgb(0, 255, 255);
-	left:55%;
-	bottom:95%;
-}
-
-.box3 {
-	width: 31%;
-	height: 1200px;
-	margin: 0.5em;
-	background-color: rgba(255, 94, 0, 0.959);
-	float: left;
-
 	
 }
-.cont31 {
-	width: 50px;
-	height:1200px;
+.cont12 {
+	width: 90%;
+	height: 46%;
+	position:relative;
 	background-color: rgb(0, 255, 255);
-	position: relative;
-	left:47%;
+	top:3em;
+}
+
+.cont31 {
+	position:relative;
+	width: 45%;
+	height:40%;
+	background-color: rgb(0, 255, 255);
+	top:10%;
+	left:5%;
+	
 }
 .cont32 {
-	width: 100%;
-	height: 50px;
+	position:relative;
+	width: 45%;
+	height:40%;
 	background-color: rgb(0, 255, 255);
-	position: relative;
-	bottom:50%;
+	left:55%;
+	bottom:40%
+}
+.cont33 {
+	position:relative;
+	width: 45%;
+	height:40%;
+	background-color: rgb(0, 255, 255);
+	bottom:20%;
+}
+.cont34 {
+	position:relative;
+	width: 45%;
+	height:40%;
+	background-color: rgb(0, 255, 255);
+	left:50%;
+	bottom:70%;
 }
 
+.foot{
+	text-align: center;
+	font-size: 15px;
+	color:black;
+	background-color: rgb(0, 255, 255);
+	padding-top: 0.2px;
+}
 
-
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
 	
 	.box{
 		width: 100%;
