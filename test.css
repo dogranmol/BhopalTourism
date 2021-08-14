@@ -37,9 +37,9 @@ h2 {
 .box {
 	width: 31%;
 	height: 600px;
-	margin: 0.5em;
+	
 	background-color: rgba(255, 94, 0, 0.959);
-	float: left;
+	
 }
 
 .cont1 {
@@ -128,14 +128,10 @@ h2 {
 	
 	.box{
 		width: 100%;
-		
-	
 
 	}
 	.box3{
 		width:100%;
-
-
 	}
 	.flex{
 		flex-direction: column;
